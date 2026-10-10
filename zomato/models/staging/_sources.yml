@@ -1,0 +1,19 @@
+sources:
+  - name: raw
+    database: ZOMATO
+    schema: RAW
+    tables:
+      - name: restaurants
+        description: "this table contains raw data of the restaurants"
+      - name: users
+        description: "this table contains raw data of the restaurants"
+      - name: food
+        description: "this table contains raw data of the food"
+      - name: menu
+        description: "this table contains raw data of the menu"
+      - name: orders
+        description: "this table contains raw data of the orders"
+      - name: order_items
+        description: "this table contains raw data of the order_items"
+      - name: reviews
+        description: "this table contains raw data of the reviews"
